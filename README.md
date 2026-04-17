@@ -1,6 +1,6 @@
-# Whether-Weather
+# CloudCast
 
-Whether-Weather is a static site that displays weather information for various cities and detailed hourly forecasts. It uses Eleventy for build, Bulma CSS for styling, and client-side JavaScript to fetch and render weather data.
+CloudCast is a static site that displays weather information for various cities and detailed hourly forecasts. It uses Eleventy for build, Bulma CSS for styling, and client-side JavaScript to fetch and render weather data.
 
 ## Project Description
 
@@ -13,30 +13,30 @@ This project aims to provide users with:
 
 ## Installation Instructions
 
-1. **Create a GitHub repository** named `Whether-Weather` (using your account):
+1. **Create a GitHub repository** named `CloudCast` (using your account):
 
    * Go to [GitHub](https://github.com) → **New** → **Repository**.
-   * Name it exactly `Whether-Weather`, add a README if you like, then click **Create repository**.
+   * Name it exactly `CloudCast`, add a README if you like, then click **Create repository**.
 
 2. **Clone your repo locally**:
 
    ```bash
    # Clone into your current directory
-   git clone git@github.com:edabelt/Whether-Weather.git
+   git clone git@github.com:edabelt/CloudCast.git
    # Change into the project folder (replace path if you cloned elsewhere)
-   cd Whether-Weather
+   cd CloudCast
    ```
 
 3. **If you’re starting fresh (no remote yet)**:
 
    ```bash
-   mkdir Whether-Weather && cd Whether-Weather
+   mkdir CloudCast && cd CloudCast
    # copy or create your project files into this folder
    git init
    git add .
    git commit -m "Initial project files"
    git branch -M main
-   git remote add origin git@github.com:edabelt/Whether-Weather.git
+   git remote add origin git@github.com:edabelt/CloudCast.git
    git push --set-upstream origin main
    ```
 
